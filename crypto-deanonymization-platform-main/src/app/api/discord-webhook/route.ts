@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1437119339567517748/G_BLi44xhjH6rSQgavZkuWxg8AfcCetE_ldlLFi1y3c2U19fT1CQQlW5ZvdjmDQHkhoc";
-
+const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/
 interface AlertData {
   type: "high_value" | "sanctioned" | "anomaly" | "mixer" | "money_laundering";
   severity: "low" | "medium" | "high" | "critical";
