@@ -6,8 +6,7 @@
 **File:** `src/app/api/analyze-address/route.ts` (lines 4-53)
 
 ```typescript
-const CHAINALYSIS_API_KEY = "3c9da534c328364cc2782089a9bb85230dd6e97903c003d5e81546dfe2334bd0";
-const CHAINALYSIS_API_URL = "https://public.chainalysis.com/api/v1/address";
+const CHAINALYSIS_API_KEY = "
 
 // Real API call:
 const chainalysisResponse = await fetch(`${CHAINALYSIS_API_URL}/${address}`, {
@@ -24,7 +23,7 @@ const chainalysisResponse = await fetch(`${CHAINALYSIS_API_URL}/${address}`, {
 **File:** `src/app/api/discord-webhook/route.ts` (line 3)
 
 ```typescript
-const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1437119339567517748/G_BLi44xhjH6rSQgavZkuWxg8AfcCetE_ldlLFi1y3c2U19fT1CQQlW5ZvdjmDQHkhoc";
+const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/
 ```
 
 **Status:** ✅ Live and configured  
